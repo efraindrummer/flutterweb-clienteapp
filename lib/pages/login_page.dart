@@ -166,7 +166,9 @@ class LoginPage extends StatelessWidget {
                   )),
                   elevation: 1,
                   color: Color(0xFF004e92),
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.pushNamed(context, 'principal');
+                  },
                 ),
               ],
             ),
